@@ -22,7 +22,6 @@ const fibonacci = function(n) {
             return 1;
         }
         cache[n] = fibonacciHelper(n-1) + fibonacciHelper(n-2);
-        console.log(cache)
         return cache[n];
     }
 
